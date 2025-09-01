@@ -1,0 +1,10 @@
+[project]
+name = "polars-hyper-table"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mypy>=1.17.1",
+    "polars>=1.33.0",
+]
