@@ -1,7 +1,12 @@
 import Header from "./Header";
+import Row from "./Row";
 
 export default function HyperGrid(){
     return (
-        <Header />
+        <div>
+            <Header />
+            <Row />
+            <p>Hello World</p>
+        </div>
     )
 }
